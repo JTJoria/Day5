@@ -1,13 +1,3 @@
-# create a list class
-# songs can be added to the list with an add song method
-# play method, play each song in the list
-# shuffle method, plays each song in the list, in a random order
-  #mix up order
-  #play each song
-#duration method-returns the sum total of all the seconds in the list
-  #summing up all duration
-  #return total
-
 
 class List
 
@@ -36,6 +26,8 @@ class List
     @songs.each do |song|
       total_duration += song.duration
     end
+
+    total_duration
   end
 end
 
